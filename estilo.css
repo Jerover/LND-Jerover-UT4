@@ -1,0 +1,12 @@
+#carrusel {
+    text-align: center;
+}
+#descripcion {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.elemento_descripcion{
+    padding-right: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+}
