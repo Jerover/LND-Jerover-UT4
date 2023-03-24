@@ -1,5 +1,10 @@
+body{
+    font-family: 'Delicious Handrawn', cursive;
+}
 #carrusel {
     text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 #descripcion {
     padding-left: 5%;
@@ -9,4 +14,13 @@
     padding-right: 3%;
     padding-bottom: 2%;
     text-align: center;
+}
+#productos{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#footer{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
 }
