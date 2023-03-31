@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/c0d0a60655.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/c0d0a60655.css" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
-    <!-- Esta fue la paleta de colores utilizada: https://colorhunt.co/palette/a9907ef3debaabc4aa675d50-->
+    <!-- Esta fue la paleta de colores utilizada: https://colorhunt.co/palette/fff8ea9e7676815b5b594545 -->
 </head>
 <body>
     <!-- Barra de navegación -->
@@ -21,7 +21,7 @@
         <div id="navbar" class="container-fluid">
             <nav class="navbar navbar-expand-lg border-3 boder-bottom border-primary">
                 <div class="container-fluid">
-                    <a href="#" class="navbar-brand"><img src="GRASITA.png" width="20%" style="font-size: 5rem;">HAMBURGUESERÍA GRASITA</a>
+                    <a href="#" class="navbar-brand"><img src="images/logo.png" width="20%" style="font-size: 5rem;">HAMBURGUESERÍA GRASITA</a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                         <span class="navbar-toggler-icon"></span> 
                     </button>
@@ -30,7 +30,7 @@
                     <!-- Elementos del menú -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-circle-info">Info</i></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-pen-to-square">Ofertas</i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-pen-to-square">Nuevo</i></a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-tablet-button">Carta</i></a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-phone">Contacto</i></a></li>
                     </ul>
@@ -64,27 +64,37 @@
         <!-- Carrusel -->
         <section id="carrusel">
             <div>
-                <h2>Disfruta de hasta un 20% en las siguientes hamburguesas:</h2>
+                <h2>No te pierdas de nuestros nuevos productos, si gustan los dejaremos fijos en la carta:</h2>
+                <p>¡Estamos probando a preparar distintos batidos frutales, esperamos sean de su agrado!</p>
             </div>
             <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <h3>Hamburguesa1</h3>
+                        <h3>Batido de fresa</h3>
                         <!-- Imagen 1 carrusel -->
-                        <img src="GRASITA.png"/>
-                        <em>Descripcion</em>
+                        <div class="margen">
+                            <img src="images/batido1.png"/>
+                            <em>7€</em>
+                        </div>
+                        <p>Este batido lleva: Leche, fresas, plátano, bayas de goji y un poquitín de nuestra mermelada de fresa.</p>
                     </div>
                     <div class="carousel-item testimonials" data-bs-interval="10000">
-                        <h3>"Hamburguesa2"</h3>
+                        <h3>Batido de arandanos</h3>
                         <!-- Imagen 2 carrusel -->
-                        <img src="GRASITA.png"/>
-                        <em>Descripción</em>
+                        <div class="margen">
+                            <img src="images/batido2.png"/>
+                            <em>7€</em>
+                        </div>
+                        <p>Este batido lleva: Leche, arandanos, plátano, moras y un poquito de menta.</p>
                     </div>
                     <div class="carousel-item testimonials" data-bs-interval="10000">
-                        <h3>"Hamburguesa3"</h3>
+                        <h3>Batido de frambuesa</h3>
                         <!-- Imagen 3 carrusel -->
-                        <img src="GRASITA.png"/>
-                        <em>Descripción</em>
+                        <div class="margen">
+                            <img src="images/batido3.png"/>
+                            <em>8€</em>
+                        </div>
+                        <p>Este batido lleva: Leche, frambuesa, plátano, y un poquitín de chocolate blanco en crema.</p>
                     </div>
                         <!-- Botones del carrusel -->
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -100,58 +110,58 @@
     </section>
     <!-- Listado de productos -->
     <section id="productos">
-        <div>
-            <h2>Elige alguno de nuestros postres</h2>
-        </div>
-        <div class="row">
-            <!-- Item 1 -->
-            <div class="col-lg-2 col-sm-4 col-xs-12 separar_elemento">
-                <h1>La Simploncilla</h1>
-                <p>Disfruta de una clasica y simple hamburguesa, un medallon de carne de vacuno de 200GR dentro de un pan de mantequilla y semillas, acompañado por lechuga y tomate, todo esto bañado con nuestra salsa de la casa.</p>
-                <img src="images/burguer1.png">
-            </div>
-            <!-- Item 2 -->
-            <div class="col-lg-2 col-sm-4 col-xs-12 separar_elemento">
-                <h1>La Oinky</h1>
-                <p>Nuestra hamburguesa de cerdo, dos medallones de carne vacuno de 150GR c/u dentro de un pan de mantequilla brioche, acompañado por bacon, cebolla morada queso blanco, queso chedar y lechuga, bañada con una salsa BBQ Jack Daniel's.</p>
-                <img src="images/burguer2.png">
-            </div>
-            <!-- Item 3 -->
-            <div class="col-lg-2 col-sm-4 col-xs-12 separar_elemento">
-                <h1>La Fritangona</h1>
-                <p>Para los amantes del pollo, disfruta de dos medallones de pollo rebozados de 170GR c/u dentro de un pan de semillas de sésamo, acompañado por bacon, tomate, lechuga, queso chedar y pimientos amarillos asados, bañada en una salsa de alioli.</p>
-                <img src="images/burguer3.png">
-            </div>
-            <!-- Item 4 -->
-            <div class="col-lg-2 col-sm-4 col-xs-12 separar_elemento">
-                <h1>La Gótica</h1>
-                <p>Nuestra hamburguesa más estravagande, disfruta de un intenso medallon de carne madurada de vaca gallega de 200GR, dentro de un pan negro con semillas de sésamo, acompañado por tomate, lechuga, cebolla morada y queso blanco, bañada en la salsa de la casa.</p>
-                <img src="images/burguer4.png">
-            </div>
-            <!-- Item 5 -->
-            <div class="col-lg-2 col-sm-4 col-xs-12 separar_elemento">
-                <h1>La Huevona</h1>
-                <p>Una hamburguesa simple pero contundente, un medallon de carne mixta de cerdo y vacuno de 200GR, dentro de un pan de semillas, acompañado por bacon, lechuga, tomate, cebolla morada, queso blanco, queso chedar y un huevo frito, bañado por una salsa mielmostaza.</p>
-                <img src="images/burguer5.png">
-            </div>
-            <!-- Item 6 -->
-            <div class="col-lg-2 col-sm-4 col-xs-12 separar_elemento">
-                <h1>La Godzilla</h1>
-                <p>Para los más glotones, disfruta de una hamburguesa con un medallo de ternera de 200GR, otro medallo de cerdo de 200GR, dentro de un pan tierno de semillas, acompañado con bacon, lechuga, tomate, cebolla frita, tres tipos de quesos fundidos, dos huevos fritos, bañado todo esto con nuestra famosa salsa.</p>
-                <img src="images/burguer6.png">
-            </div>
-        </div>
-    </section>
-    <!-- Listado de productos -->
-    <section id="productos">
-        <h2>Menú</h2>
-        <p>Elija entre nuestras burguers</p>
-        <div class="row">
-            <!-- Item 1 -->
+        <h1 class="letra_clara">¡A zampar se ha dicho! Disfrute nuestro menú</h1>
+        <h2 class="letra_clara">Entrantes</h2>
+        <p class="letra_clara">Vete haciendo boca con algunas de nuestras delicias:</p>
+        <div class="row margen_menu">
+            <!-- Entrante 1 -->
             <div class="col-lg-4 col-sm-6 col-xs-12 menu">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="reduccion">La Simploncilla</h3>
+                        <h3>Waka waka</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Disfruta de un potingue de guacamole casero con totopos hechos a mano, si lo deseas podemos dejar un poco mas picantito tu guacamole añadiendo un poco de jalapeños triturados.</p>
+                        <img src="images/entrante1.png">
+                        <em>11€</em>
+                    </div>
+                </div>
+            </div>
+            <!-- Entrante 2 -->
+            <div class="col-lg-4 col-sm-6 col-xs-12 menu">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Fritanguitos</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Disfruta de un mix de palomitas de pollo y palomitas de queso caseras, 6 unidades de cada una, para los mas salseritos podreis elegir hasta 3 de nuestras salsas para mojar estas maravillas.</p>
+                        <img src="images/entrante2.png">
+                        <em>8€</em>
+                    </div>
+                </div>
+            </div>
+            <!-- Entrante 3 -->
+            <div class="col-lg-4 col-sm-12 col-xs-12 menu">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Diablillos</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Para los que aman el picantito, disfruten de nuestros jalapeños rebozados rellenos de queso crema, podreis disponer de hasta 3 de nuestras salsas para intentar rebajar el picor de estos diablillos.</p>
+                        <img src="images/entrante3.png">
+                        <em>12€</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="letra_clara">Principal</h2>
+        <p class="letra_clara">Elija entre nuestras preciadas burguers:</p>
+        <div class="row margen_menu">
+            <!-- Principal 1 -->
+            <div class="col-lg-4 col-sm-6 col-xs-12 menu">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>La Simploncilla</h3>
                     </div>
                     <div class="card-body">
                         <p>Disfruta de una clasica y simple hamburguesa, un medallon de carne de vacuno de 200GR dentro de un pan de mantequilla y semillas, acompañado por lechuga y tomate, todo esto bañado con nuestra salsa de la casa.</p>
@@ -160,11 +170,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Item 2 -->
+            <!-- Principal 2 -->
             <div class="col-lg-4 col-sm-6 col-xs-12 menu">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="reduccion">La Oinky</h3>
+                        <h3>La Oinky</h3>
                     </div>
                     <div class="card-body">
                         <p>Nuestra hamburguesa de cerdo, dos medallones de carne vacuno de 150GR c/u dentro de un pan de mantequilla brioche, acompañado por bacon, cebolla morada queso blanco, queso chedar y lechuga, bañada con una salsa BBQ Jack Daniel's.</p>
@@ -173,11 +183,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Item 3 -->
+            <!-- Principal 3 -->
             <div class="col-lg-4 col-sm-6 col-xs-12 menu">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="reduccion">La Fritangona</h3>
+                        <h3>La Fritangona</h3>
                     </div>
                     <div class="card-body">
                         <p>Para los amantes del pollo, disfruta de dos medallones de pollo rebozados de 170GR c/u dentro de un pan de semillas de sésamo, acompañado por bacon, tomate, lechuga, queso chedar y pimientos amarillos asados, bañada en una salsa de alioli.</p>
@@ -186,11 +196,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Item 4 -->
+            <!-- Principal 4 -->
             <div class="col-lg-4 col-sm-6 col-xs-12 menu">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="reduccion">La Gótica</h3>
+                        <h3>La Gótica</h3>
                     </div>
                     <div class="card-body">
                         <p>Nuestra hamburguesa más estravagande, disfruta de un intenso medallon de carne madurada de vaca gallega de 200GR, dentro de un pan negro con semillas de sésamo, acompañado por tomate, lechuga, cebolla morada y queso blanco, bañada en la salsa de la casa.</p>
@@ -199,11 +209,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Item 5 -->
+            <!-- Principal 5 -->
             <div class="col-lg-4 col-sm-6 col-xs-12 menu">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="reduccion">La Huevona</h3>
+                        <h3>La Huevona</h3>
                     </div>
                     <div class="card-body">
                         <p>Una hamburguesa simple pero contundente, un medallon de carne mixta de cerdo y vacuno de 200GR, dentro de un pan de semillas, acompañado por bacon, lechuga, tomate, cebolla morada, queso blanco, queso chedar y un huevo frito, bañado por una salsa mielmostaza.</p>
@@ -212,16 +222,59 @@
                     </div>
                 </div>
             </div>
-            <!-- Item 6 -->
+            <!-- Principal 6 -->
             <div class="col-lg-4 col-sm-6 col-xs-12 menu">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="reduccion">La Godzilla</h3>
+                        <h3>La Godzilla</h3>
                     </div>
                     <div class="card-body">
                         <p>Para los más glotones, disfruta de una hamburguesa con un medallo de ternera de 200GR, otro medallo de cerdo de 200GR, dentro de un pan tierno de semillas, acompañado con bacon, lechuga, tomate, cebolla frita, tres tipos de quesos fundidos, dos huevos fritos, bañado todo esto con nuestra famosa salsa.</p>
                         <img src="images/burguer6.png">
                         <em>20€</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="letra_clara">Postres</h2>
+        <p class="letra_clara">Toda comida necesita un buen remate:</p>
+        <div class="row margen_menu">
+            <!-- Postre 1 -->
+            <div class="col-lg-4 col-sm-6 col-xs-12 menu">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Tarta de queso</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Endulzate con nuestro postre estrella, tartita de queso casera, una base de galleta de lotus con una crema de queso cremosa y una mermelada casera de fresas, ¡a morir de diabetes!</p>
+                        <img src="images/postre1.png">
+                        <em>5€</em>
+                    </div>
+                </div>
+            </div>
+            <!-- Postre 2 -->
+            <div class="col-lg-4 col-sm-6 col-xs-12 menu">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Brownie</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Disfruta de un pedazo de nuestro brownie casero, con frutos secos tritarados, chocolate fundido y si lo deseas le puedes añadir una bolita de helado y un poco de nata ¡totalmente gratis!</p>
+                        <img src="images/postre2.png">
+                        <em>5€</em>
+                    </div>
+                </div>
+            </div>
+            <!-- Postre 3 -->
+            <div class="col-lg-4 col-sm-12 col-xs-12 menu">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Batido de oreo</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Deleitate con un batidito fresco de galletas oreos, coronado por nata montada y una galleta de oreo, opcionalmente puedes echar sirope de fresa, caramelo o chocolate ¡totalmente gratis!</p>
+                        <img src="images/postre3.png">
+                        <em>5€</em>
                     </div>
                 </div>
             </div>

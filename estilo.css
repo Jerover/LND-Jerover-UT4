@@ -2,18 +2,13 @@ body{
     font-family: 'Delicious Handrawn', cursive;
     background-color: #9E7676;
     color:#FFF8EA;
-}
-#navbar {
-    background-color: #594545;
-    color:white;
-    padding-right: -200px;
-    padding-left: -200px;
+    font-size: 1.4rem;
 }
 #carrusel {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     background-color: #815B5B;
 }
 #descripcion {
@@ -49,5 +44,23 @@ body{
     padding-right: 50px;
 }
 a{
-    color:white;
+    color:#FFF8EA;
+}
+.letra_clara{
+    color:#FFF8EA;
+    text-align: center;
+}
+em{
+    font-size: 4rem;
+    padding-left: 15%;
+}
+h3{
+    text-align: center;
+}
+.margen{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.margen_menu{
+    padding-bottom: 3%;
 }
