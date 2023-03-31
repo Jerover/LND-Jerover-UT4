@@ -35,10 +35,6 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
-    padding-bottom: 5%;
-}
-.ampliar{
-    font-size: large;
 }
 .iconos_footer{
     padding-right: 50px;
@@ -63,4 +59,14 @@ h3{
 }
 .margen_menu{
     padding-bottom: 3%;
+}
+.nav-item a:hover{
+    color:#FFF8EA;
+}
+.navbar-brand{
+    color:#FFF8EA;
+    font-size: 1.6rem;
+}
+#margen_footer{
+    padding-bottom: 5%;
 }

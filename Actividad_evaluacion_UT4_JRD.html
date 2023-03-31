@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad evaluación UT4. Jerover Rodríguez Díaz</title>
+    <!-- Enlace a bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Enlaces necesario para aplicar una fuente de Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Enlace para poder emplear la fuente aplicada en mi HTML-->
     <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <!-- Enlaces utilizados para poder emplear los iconos de "Fontawesome"-->
     <script src="https://kit.fontawesome.com/c0d0a60655.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/c0d0a60655.css" crossorigin="anonymous">
+    <!-- Referencia a la hoja de estilos -->
     <link rel="stylesheet" href="estilo.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png">
     <!-- Esta fue la paleta de colores utilizada: https://colorhunt.co/palette/fff8ea9e7676815b5b594545 -->
 </head>
 <body>
@@ -21,7 +28,7 @@
         <div id="navbar" class="container-fluid">
             <nav class="navbar navbar-expand-lg border-3 boder-bottom border-primary">
                 <div class="container-fluid">
-                    <a href="#" class="navbar-brand"><img src="images/logo.png" width="20%" style="font-size: 5rem;">HAMBURGUESERÍA GRASITA</a>
+                    <a href="Actividad_evaluacion_UT4_JRD.html" class="navbar-brand"><img src="images/logo.png">HAMBURGUESERÍA GRASITA</a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                         <span class="navbar-toggler-icon"></span> 
                     </button>
@@ -29,10 +36,10 @@
                 <div id="menu" class="collapse navbar-collapse ms-auto">
                     <!-- Elementos del menú -->
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-circle-info">Info</i></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-pen-to-square">Nuevo</i></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-tablet-button">Carta</i></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-phone">Contacto</i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#descripcion"><i class="icon-link icon-link-hover fa-solid fa-circle-info">Info</i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#carrusel"><i class="fa-solid fa-pen-to-square">Nuevo</i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#productos"><i class="fa-solid fa-tablet-button">Carta</i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer"><i class="fa-solid fa-phone">Contacto</i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -45,29 +52,33 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 separar_elemento">
                     <h2>¡Maestros en lo nuestro!</h2>
                     <p>Llevamos creando nuestras hamburguesas desde 1970, seleccionamos nuestros productos de la mejor calidad posible, verduras y frutas autóctonas frescas, carnes maduradas y pollo de corral, lo mejor para los mejores, ustedes.</p>
-                    <img src="GRASITA.png" width="5PX">
+                    <img src="images/descripcion1.png">
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 separar_elemento">
                     <h2>¡Atendemos a todos los paladares!</h2>
                     <p>¿No te agrada ninguna hamburguesa de nuestra carta? Disponemos de una sección en nuestra carta donde puedes elegir, que tipo de pan deseas, que tipo de carne, el punto, la calidad de esta además que ingredientes y salsas deseas añadir a tu manjar, hasta un total de 6.</p>
+                    <img src="images/descripcion2.png">
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 separar_elemento">
                     <h2>¡Veganos son bienvenidos!</h2>
                     <p>Disponmos de distintos tipos de carnes veganas, Heura nos proporciona un sin fin de productos para ustedes, también quesos y salsas deliciosas. No os preocupeis por la contaminación cruzada ya que contamos con planchas y utencilios reservados solamente para vuestros productos</p>
+                    <img src="images/descripcion3.png">
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 separar_elemento">
                     <h2>¡Hasta el infinito y más alla!</h2>
                     <p>Somos una empresa en expansión, ya contamos con hasta 4 locales repartidos por Las Palmas de G.C, pero nos gustaría seguir creciendo, si quieres montar tu propia franquicia de Hamburgueseria Grasita contactanos por nuestras redes o nuestro o nuestro correo electrónico.</p>
+                    <img src="images/descripcion4.png">
                 </div>
             </div>
         </section>
-        <!-- Carrusel -->
+        <!-- Carrusel - Tipo oscuro, donde se pasan las imagenes pasado un tiempo y se emplea una transición-->
+        <a name="nuevo" id="nuevo"></a>
         <section id="carrusel">
             <div>
                 <h2>No te pierdas de nuestros nuevos productos, si gustan los dejaremos fijos en la carta:</h2>
                 <p>¡Estamos probando a preparar distintos batidos frutales, esperamos sean de su agrado!</p>
             </div>
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div id="carouselExampleRide" class="carousel slide carousel-fade carousel-dark" data-bs-ride="true">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <h3>Batido de fresa</h3>
@@ -283,7 +294,7 @@
     <!-- Pie de página -->
     <footer id="footer">
         <div class="row">
-            <div class="col-lg-6 col-xs-12">
+            <div class="col-lg-6 col-xs-12" id="margen_footer">
                 <h2>¡Ponte al día!</h2>
                 <p>No te pierdas nada de nuestras redes sociales, hacemos varios sorteos a lo largo del año, buscanos:</p>
                 <a class="iconos_footer" href="https://www.twitter.com"><i class="fab fa-twitter fa-2x iconos_footer"></i></a>
@@ -297,7 +308,8 @@
                 <a href="mailto:jeroverrodriguezdiaz@alumno.ieselrincon.es"><i class="fas fa-envelope fa-2x"></i></a>
             </div>
         </div>
-    </footer>    
+    </footer>
+    <!-- Enlace para usar los scripts de Bootstrap -->    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
