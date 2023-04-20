@@ -41,6 +41,10 @@ body{
 }
 a{
     color:#FFF8EA;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
 .letra_clara{
     color:#FFF8EA;
