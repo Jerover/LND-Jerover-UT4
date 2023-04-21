@@ -10,23 +10,21 @@
     <link>https://jerover.github.io/LND-Jerover-UT4/</link>
     <description>¡El postre para los amantes de lo dulce!</description>
     <category>Comida</category>
-    <enclousure url="http://www.recetasycocina.net/gestor/upload/nachos-ternera-queso-barbacoa.png"
-    length="5000" type="image/png"/>
+    <enclosure url="https://es.web.img2.acsta.net/img/13/75/1375fcd24e03179476495aab2d938c3e.jpg" type="image/jpeg" length="509503"/>
   </item>
   <item>
     <title>Helado</title>
     <link>https://jerover.github.io/LND-Jerover-UT4/</link>
     <description>¡El mejor acompañamiento para unas hamburguesas son unas buenas papas!</description>
     <category>Entrantes</category>
-    <enclosure url="https://upload.wikimedia.org/wikipedia/commons/d/d0/McDonalds-Chicken-McNuggets.jpg" type="image/jpeg" length="97360"/>
+    <enclosure url="https://es.web.img3.acsta.net/img/44/48/4448ea18912e3548da076d9f5f1b689b.jpg" type="image/jpeg" length="566558"/>
   </item>
   <item>
     <title>Nuggets</title>
     <link>https://jerover.github.io/LND-Jerover-UT4/</link>
     <description>Una alternativa para los que prefieren pollo frito antes que una hamburguesa!</description>
     <category>Comida</category>
-    <enclousure url="https://upload.wikimedia.org/wikipedia/commons/d/d0/McDonalds-Chicken-McNuggets.jpg"
-    length="5000" type="image/jpg"/>
+    <enclosure url="https://es.web.img3.acsta.net/img/37/41/374185a40165d48e2c47d733fd6d358f.jpg" type="image/jpeg" length="562035"/>
   </item>
 </channel>
 </rss>

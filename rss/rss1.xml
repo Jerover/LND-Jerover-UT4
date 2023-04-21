@@ -10,24 +10,21 @@
         <link>https://jerover.github.io/LND-Jerover-UT4/</link>
         <description>¡Disfruta de tus nachos a mitad de precio!</description>
         <category>Entrantes</category>
-        <enclousure url="https://www.shutterstock.com/image-photo/corn-chips-nachos-fried-minced-260nw-1361786099.jpg"
-        length="5000" type="image/jpg"/>
+        <enclosure url="https://es.web.img2.acsta.net/img/13/75/1375fcd24e03179476495aab2d938c3e.jpg" type="image/jpeg" length="509503"/>
     </item>
     <item>
         <title>25% Papas</title>
         <link>https://jerover.github.io/LND-Jerover-UT4/</link>
         <description>¡El mejor acompañamiento para unas hamburguesas son unas buenas papas!</description>
         <category>Entrantes</category>
-        <enclousure url="https://biotrendies.com/wp-content/uploads/2015/07/patatas-fritas.jpg"
-        length="5000" type="image/jpg"/>
+        <enclosure url="https://es.web.img3.acsta.net/img/37/41/374185a40165d48e2c47d733fd6d358f.jpg" type="image/jpeg" length="562035"/>
     </item>
         <item>
         <title>25% Batidos</title>
         <link>https://jerover.github.io/LND-Jerover-UT4/</link>
         <description>El verano esta a la vuelta de la esquina, ¡disfruta de un batido!</description>
         <category>Bebida</category>
-        <enclousure url="https://images.ecestaticos.com/Z1yphQObjHwXY4upz3aCXATpXqo=/0x45:1765x1039/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F64a%2F031%2F73b%2F64a03173b3881a163af04ca369eb5530.jpg"
-        length="5000" type="image/jpg"/>
+        <enclosure url="https://es.web.img3.acsta.net/img/44/48/4448ea18912e3548da076d9f5f1b689b.jpg" type="image/jpeg" length="566558"/>
     </item>
 </channel>
 </rss>
