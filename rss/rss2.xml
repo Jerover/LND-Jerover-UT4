@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Ofertas semanales</title>
+  <title>Novedades</title>
   <link>https://jerover.github.io/LND-Jerover-UT4/</link>
-  <description>¡Disfruta de nuestras jugosas ofertas!</description>
+  <description>¡Nuevos productos!</description>
   <category>Hamburguesería</category>
   <item>
     <title>Tarta de 3 chocolates</title>
