@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-<item>
-  <title>50% Nachos</title>
-  <link>https://jerover.github.io/LND-Jerover-UT4/</link>
-  <description>¡Disfruta de tus nachos a mitad de precio!</description>
-  <category>Entrantes</category>
+    <title>Ofertas semanales</title>
+    <link>https://jerover.github.io/LND-Jerover-UT4/</link>
+    <category>Hamburguesería</category>
+    <item>
+    <title>50% Nachos</title>
+    <link>https://jerover.github.io/LND-Jerover-UT4/</link>
+    <description>¡Disfruta de tus nachos a mitad de precio!</description>
+    <category>Entrantes</category>
     <image>
+        <url>https://www.axos.es/ImagenesBlog/ofertas.jpeg</url>
+        <tittle>¡Ofertas!</tittle>
+        <link>https://jerover.github.io/LND-Jerover-UT4/</link>
+    </image>
+    <enclousure>
         <url>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIT8co8CcsXxdEc15ZRD2lIaB6dhgPsZmFnA&usqp=CAU</url>
         <title>Nachos</title>
         <link>https://jerover.github.io/LND-Jerover-UT4/</link>
-    </image>
-</item>
-<item>
+    </enclousure>
+    </item>
+    <item>
     <title>25% Papas</title>
     <link>https://jerover.github.io/LND-Jerover-UT4/</link>
     <description>¡El mejor acompañamiento para unas hamburguesas son unas buenas papas!</description>
     <category>Entrantes</category>
-    <image>
+    <enclousure>
         <url>https://biotrendies.com/wp-content/uploads/2015/07/patatas-fritas.jpg</url>
         <title>Papas</title>
         <link>https://jerover.github.io/LND-Jerover-UT4/</link>
-    </image>
-</item>
-<item>
+    </enclousure>
+    </item>
+    <item>
     <title>25% Batidos</title>
     <link>https://jerover.github.io/LND-Jerover-UT4/</link>
     <description>El verano esta a la vuelta de la esquina, ¡disfruta de un batido!</description>
     <category>Bebida</category>
-    <image>
+    <enclousure>
         <url>https://images.ecestaticos.com/Z1yphQObjHwXY4upz3aCXATpXqo=/0x45:1765x1039/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F64a%2F031%2F73b%2F64a03173b3881a163af04ca369eb5530.jpg</url>
         <title>Batidos</title>
         <link>https://jerover.github.io/LND-Jerover-UT4/</link>
-    </image>
-</item>
+    </enclousure>
+    </item>
 </channel>
 </rss>
